@@ -1,14 +1,19 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import './navbar.css'
 
 const Navbar = () => {
+    const navigate = useNavigate()
+
+    const getStarted = () => {
+        navigate('/contacts', { replace: true })
+    }
+
     return (
         <div className="navbar">
             <a href="/" className="navbar_logo">
                 Router
             </a>
             <ul>
-               
                 <li>
                     <NavLink to="/">Home</NavLink>
                 </li>
@@ -22,7 +27,7 @@ const Navbar = () => {
                     <NavLink to="/contacts">Contact</NavLink>
                 </li>
             </ul>
-            <button>Get Started</button>
+            <button onClick={getStarted}>Get Started</button>
         </div>
     )
 }
