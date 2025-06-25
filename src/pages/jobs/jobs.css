@@ -1,0 +1,15 @@
+.jobs {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.jobs a {
+    flex: 1;
+    padding: 10px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    color: #000;
+}

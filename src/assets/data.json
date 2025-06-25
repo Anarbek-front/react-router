@@ -1,0 +1,22 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "title": "Senior React Developer",
+            "salary": 50000,
+            "location": "London UK"
+        },
+        {
+            "id": 2,
+            "title": "Frontend Developer",
+            "salary": 40000,
+            "location": "Los-Angeles USA"
+        },
+        {
+            "id": 1,
+            "title": "Senior React,Node.js Developer",
+            "salary": 60000,
+            "location": "Tokyo Japan"
+        }
+    ]
+}

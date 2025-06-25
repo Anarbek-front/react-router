@@ -26,6 +26,9 @@ const Navbar = () => {
                 <li>
                     <NavLink to="/contacts">Contact</NavLink>
                 </li>
+                <li>
+                    <NavLink to="/jobs">Jobs</NavLink>
+                </li>
             </ul>
             <button onClick={getStarted}>Get Started</button>
         </div>
